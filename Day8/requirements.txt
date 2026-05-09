@@ -1,0 +1,5 @@
+# requirements.txt
+
+pandas
+nltk
+scikit-learn
