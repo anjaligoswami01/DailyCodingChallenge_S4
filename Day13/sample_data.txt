@@ -1,0 +1,5 @@
+Python is a programming language.
+Machine learning helps computers learn patterns.
+Embeddings convert text into vectors.
+Neural networks are inspired by the human brain.
+AI systems use semantic search for retrieval.
