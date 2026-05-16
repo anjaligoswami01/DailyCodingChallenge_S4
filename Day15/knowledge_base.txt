@@ -1,0 +1,9 @@
+
+OpenAI was founded in 2015 as a non-profit artificial intelligence research lab by a group of prominent tech leaders, with Sam Altman and Elon Musk serving as its original co-chairs.
+
+RAG (Retrieval-Augmented Generation) is a technique that gives AI an "open-book exam". Instead of forcing an AI to rely solely on its fixed memory, RAG first searches a specific database or document for relevant facts, then uses those facts to write an accurate, up-to-date answer.
+
+Mumbai Indians and Chennai Super Kings are tied for the most IPL trophies, with 5 titles each 🏆🏆🏆🏆🏆
+
+He was one of India’s most successful stock market investors and was often compared to Warren Buffett for his long-term investing style.
+
