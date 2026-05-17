@@ -1,0 +1,362 @@
+[
+    {
+        "query": "What is quantum computing?",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 1,
+                "score": 1.7180821895599365,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.7319273948669434,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            },
+            {
+                "chunk_id": 0,
+                "score": 1.7699894905090332,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\n meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information\n\nanguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once.\n\nEmbeddings are num\n",
+        "failure_type": "Correct Chunk Retrieved but Weak Generation",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "Explain blockchain technology",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 1,
+                "score": 1.764277458190918,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            },
+            {
+                "chunk_id": 0,
+                "score": 1.8277287483215332,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.9178370237350464,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\n meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information\n\nEmbeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based \n",
+        "failure_type": "Correct Chunk Retrieved but Weak Generation",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "What is cloud gaming?",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 0,
+                "score": 1.7927922010421753,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.978151559829712,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            },
+            {
+                "chunk_id": 1,
+                "score": 1.9860875606536865,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\nEmbeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg\n\nanguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once.\n\n meaning instead o\n",
+        "failure_type": "Correct Chunk Retrieved but Weak Generation",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "Summarize all AI topics in detail",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 0,
+                "score": 1.5548839569091797,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            },
+            {
+                "chunk_id": 1,
+                "score": 1.5980348587036133,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.6534793376922607,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\nEmbeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg\n\n meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge\n",
+        "failure_type": "Correct Chunk Retrieved but Weak Generation",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "Explain every concept mentioned",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 1,
+                "score": 1.472890853881836,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.479736566543579,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            },
+            {
+                "chunk_id": 0,
+                "score": 1.6484142541885376,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\n meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information\n\nanguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once.\n\nEmbeddings are num\n",
+        "failure_type": "Correct Chunk Retrieved but Weak Generation",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "Give complete detailed notes",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 0,
+                "score": 1.7491072416305542,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.7905430793762207,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            },
+            {
+                "chunk_id": 1,
+                "score": 1.8025686740875244,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\nEmbeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg\n\nanguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once.\n\n meaning instead o\n",
+        "failure_type": "Correct Chunk Retrieved but Weak Generation",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "What is machine learning?",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 0,
+                "score": 1.5049222707748413,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.6141328811645508,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            },
+            {
+                "chunk_id": 1,
+                "score": 1.6516833305358887,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\nEmbeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg\n\nanguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once.\n\n meaning instead o\n",
+        "failure_type": "Correct Chunk Retrieved but Weak Generation",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "Define neural networks",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 0,
+                "score": 1.7071378231048584,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.8757878541946411,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            },
+            {
+                "chunk_id": 1,
+                "score": 1.9289162158966064,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\nEmbeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg\n\nanguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once.\n\n meaning instead o\n",
+        "failure_type": "Correct Chunk Retrieved but Weak Generation",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "Explain embeddings",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 0,
+                "score": 0.9184128642082214,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            },
+            {
+                "chunk_id": 1,
+                "score": 1.410531997680664,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.6158725023269653,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\nEmbeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg\n\n meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge\n",
+        "failure_type": "Correct Chunk Retrieved but Weak Generation",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "What is it used for?",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 1,
+                "score": 1.473881483078003,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            },
+            {
+                "chunk_id": 0,
+                "score": 1.5281448364257812,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.7906062602996826,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\n meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information\n\nEmbeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based \n",
+        "failure_type": "Vague Context Retrieved",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "How does this system work?",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 2,
+                "score": 1.681269884109497,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            },
+            {
+                "chunk_id": 0,
+                "score": 1.8197321891784668,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            },
+            {
+                "chunk_id": 1,
+                "score": 1.8402687311172485,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\nanguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once.\n\nEmbeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg\n\n meaning instead o\n",
+        "failure_type": "Correct Chunk Retrieved but Weak Generation",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "Why is this important?",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 1,
+                "score": 1.6785600185394287,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.6808973550796509,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            },
+            {
+                "chunk_id": 0,
+                "score": 1.834092617034912,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\n meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information\n\nanguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once.\n\nEmbeddings are num\n",
+        "failure_type": "Vague Context Retrieved",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "What is semantic search?",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 0,
+                "score": 1.0523197650909424,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            },
+            {
+                "chunk_id": 1,
+                "score": 1.2321076393127441,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.5372529029846191,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\nEmbeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg\n\n meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge\n",
+        "failure_type": "Correct Chunk Retrieved but Weak Generation",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "What does FAISS do?",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 0,
+                "score": 1.2416585683822632,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            },
+            {
+                "chunk_id": 1,
+                "score": 1.8825628757476807,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.905881643295288,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\nEmbeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg\n\n meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge\n",
+        "failure_type": "Correct Chunk Retrieved but Weak Generation",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    },
+    {
+        "query": "What are vector embeddings?",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 0,
+                "score": 0.9222144484519958,
+                "content": "Embeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg"
+            },
+            {
+                "chunk_id": 1,
+                "score": 1.5411980152130127,
+                "content": " meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge Language Models can hallucinate without proper grounding.\n\nContext windows limit how much information"
+            },
+            {
+                "chunk_id": 2,
+                "score": 1.7983671426773071,
+                "content": "anguage Models can hallucinate without proper grounding.\n\nContext windows limit how much information an LLM can process at once."
+            }
+        ],
+        "generated_answer": "\nGenerated answer based on retrieved context:\n\nEmbeddings are numerical vector representations of text.\n\nFAISS is a library for fast similarity search.\n\nSemantic search retrieves documents based on meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides larg\n\n meaning instead of keywords.\n\nRAG stands for Retrieval-Augmented Generation.\n\nChunking divides large text into smaller pieces for retrieval.\n\nLarge\n",
+        "failure_type": "Correct Chunk Retrieved but Weak Generation",
+        "retrieval_quality": 5,
+        "answer_quality": 3
+    }
+]
