@@ -1,0 +1,47 @@
+[
+  {
+    "text": "LangChain helps developers build AI applications using LLMs.",
+    "metadata": {
+      "source": "LangChain Docs",
+      "category": "AI",
+      "date": "2024-01-10",
+      "document_type": "technical"
+    }
+  },
+  {
+    "text": "FAISS is a library for efficient similarity search and clustering.",
+    "metadata": {
+      "source": "Meta Research",
+      "category": "Vector Database",
+      "date": "2023-11-15",
+      "document_type": "technical"
+    }
+  },
+  {
+    "text": "AI startups are rapidly adopting RAG architectures.",
+    "metadata": {
+      "source": "TechCrunch",
+      "category": "Business",
+      "date": "2022-05-22",
+      "document_type": "news"
+    }
+  },
+  {
+    "text": "Metadata filtering improves retrieval precision in AI systems.",
+    "metadata": {
+      "source": "Research Paper",
+      "category": "AI",
+      "date": "2024-03-18",
+      "document_type": "research"
+    }
+  },
+  {
+    "text": "Marketing teams use AI chatbots for customer engagement.",
+    "metadata": {
+      "source": "Marketing Weekly",
+      "category": "Marketing",
+      "date": "2021-07-09",
+      "document_type": "blog"
+    }
+  }
+]
