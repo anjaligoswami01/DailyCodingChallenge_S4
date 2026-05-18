@@ -1,0 +1,13 @@
+Embeddings are numerical vector representations of text.
+
+FAISS is a library for fast similarity search.
+
+Semantic search retrieves documents based on meaning instead of keywords.
+
+RAG stands for Retrieval-Augmented Generation.
+
+Chunking divides large text into smaller pieces for retrieval.
+
+Large Language Models can hallucinate without proper grounding.
+
+Context windows limit how much information an LLM can process at once.
