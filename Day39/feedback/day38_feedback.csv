@@ -1,0 +1,6 @@
+issue,frequency,impact
+Context forgotten,15,High
+Irrelevant retrieval,12,High
+Hallucinations,8,Medium
+Slow responses,7,Medium
+Formatting issues,4,Low
