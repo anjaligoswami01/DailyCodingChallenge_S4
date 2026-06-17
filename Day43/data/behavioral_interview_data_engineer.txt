@@ -1,0 +1,19 @@
+=== FILE: behavioral_interview_data_engineer.txt ===
+
+Behavioral interviews assess communication, collaboration, problem-solving, and leadership skills. Data engineers frequently work with cross-functional teams, making these abilities important.
+
+A common question asks candidates to describe a challenging project. Using the STAR framework (Situation, Task, Action, Result) helps provide structured responses.
+
+Interviewers often ask about production failures and how they were resolved. Strong answers demonstrate ownership, troubleshooting ability, and systematic problem-solving.
+
+Teamwork questions explore collaboration with analysts, software engineers, and business stakeholders. Candidates should highlight communication and coordination skills.
+
+Time management is another common topic. Data engineers often balance development work, production support, and project deadlines.
+
+Questions about learning new technologies assess adaptability. Candidates should share examples of acquiring and applying new skills successfully.
+
+Conflict resolution questions may involve technical disagreements or stakeholder expectations. Effective responses emphasize professionalism and evidence-based decision making.
+
+Behavioral preparation should focus on real experiences rather than hypothetical scenarios.
+
+Strong behavioral performance complements technical expertise and demonstrates readiness for professional data engineering roles.

@@ -1,0 +1,17 @@
+=== FILE: aws_certifications.txt ===
+
+AWS certifications are widely recognized in the cloud computing and data engineering industries.
+
+The AWS Certified Cloud Practitioner certification is an excellent starting point for beginners. It introduces cloud concepts, AWS services, pricing, security, and architecture fundamentals.
+
+For data engineers, the AWS Certified Data Engineer – Associate certification is particularly relevant. It focuses on data ingestion, transformation, storage, orchestration, and analytics solutions on AWS.
+
+Important services include Amazon S3, AWS Glue, Amazon Redshift, Amazon EMR, Lambda, Athena, and Kinesis.
+
+Hands-on experience is critical for certification success. Building ETL pipelines and analytics workflows using AWS services reinforces theoretical knowledge.
+
+AWS certifications help validate cloud expertise and strengthen job applications.
+
+Employers often view certifications as evidence of commitment to continuous learning and professional development.
+
+Combined with practical project experience, AWS certifications can significantly improve career opportunities in cloud data engineering.

@@ -1,0 +1,17 @@
+Batch processing is a data processing approach in which large volumes of data are collected and processed at scheduled intervals rather than continuously in real time.
+
+Traditionally, organizations run batch jobs hourly, daily, weekly, or monthly depending on business requirements. For example, a retail company may process daily sales transactions overnight and generate reports the following morning.
+
+Batch systems are designed to handle large datasets efficiently. Instead of processing records individually, data is grouped into batches and executed as a single workload. This approach optimizes resource utilization and simplifies operational management.
+
+Common technologies used for batch processing include Apache Spark, Hadoop MapReduce, AWS Glue, Databricks, Snowflake, and Airflow. These platforms support large-scale transformations, aggregations, and data movement operations.
+
+A typical batch pipeline may extract data from transactional databases, perform cleansing and enrichment steps, and load the results into a warehouse for reporting and analysis.
+
+Advantages of batch processing include simplicity, predictable scheduling, and cost efficiency. Since jobs execute at predefined times, organizations can optimize infrastructure usage and reduce operational overhead.
+
+However, batch systems introduce latency because data is only available after the next processing cycle. Businesses requiring immediate insights often supplement batch pipelines with real-time architectures.
+
+Many organizations operate hybrid environments where batch processing handles historical analytics while streaming systems support operational monitoring and instant decision-making.
+
+Understanding batch processing remains important because many enterprise data platforms continue to rely on scheduled workflows for large-scale analytical processing and reporting.

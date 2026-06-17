@@ -1,0 +1,22 @@
+Indexes are database structures that improve query performance by allowing faster data retrieval. Data engineers use indexes extensively to optimize large-scale database operations and analytical workloads.
+
+Without an index, the database performs a full table scan, reading every row to locate matching records. As data volume grows, this process becomes increasingly expensive. Indexes provide shortcuts that allow the database engine to locate data efficiently.
+
+A common example is creating an index on a customer identifier:
+
+CREATE INDEX idx_customer_id
+ON customers(customer_id);
+
+When queries frequently filter by customer_id, the database can quickly locate matching rows without scanning the entire table.
+
+Primary keys automatically create indexes in most database systems. Additional indexes can be created on columns used in WHERE clauses, JOIN conditions, and ORDER BY operations.
+
+There are several index types. B-tree indexes are the most common and support equality and range searches. Hash indexes are optimized for exact matches. Bitmap indexes are often used in analytical databases with low-cardinality columns.
+
+While indexes improve read performance, they can slow down write operations because the index must be updated whenever data changes. Therefore, excessive indexing can negatively impact insert and update performance.
+
+Data engineers must balance query speed with storage and maintenance costs. Monitoring query execution plans helps identify opportunities for index optimization.
+
+Cloud data warehouses use alternative optimization techniques such as clustering, partitioning, and columnar storage. However, the principles of indexing remain important for understanding query performance.
+
+Effective indexing strategies reduce latency, improve reporting performance, and support scalable data engineering systems.

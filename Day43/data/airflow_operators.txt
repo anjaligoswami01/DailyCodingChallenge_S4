@@ -1,0 +1,22 @@
+Operators are the building blocks of Airflow tasks. Every task within a DAG is implemented using an operator that defines the work to be performed.
+
+Airflow provides many built-in operators. PythonOperator executes Python functions, BashOperator runs shell commands, and EmailOperator sends notifications. Specialized operators support integration with cloud services and databases.
+
+For example, a PythonOperator may execute data transformation logic:
+
+PythonOperator(
+task_id="transform_data",
+python_callable=transform_function
+)
+
+Database operators enable interactions with systems such as PostgreSQL, MySQL, Snowflake, and BigQuery. Cloud operators support AWS, Azure, and Google Cloud services.
+
+Sensors are a special category of operators that wait for external events before proceeding. A sensor might monitor a file location and trigger downstream processing once the file becomes available.
+
+Operators can be combined to create sophisticated workflows involving data extraction, validation, enrichment, machine learning, and reporting.
+
+Custom operators can also be developed when specialized functionality is required. This extensibility allows organizations to tailor Airflow to their unique requirements.
+
+Selecting appropriate operators improves workflow maintainability and reduces development effort. Data engineers often reuse standardized operators across multiple pipelines.
+
+A strong understanding of Airflow operators enables efficient workflow development and supports scalable orchestration architectures.

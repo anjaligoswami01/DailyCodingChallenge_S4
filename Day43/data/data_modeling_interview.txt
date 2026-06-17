@@ -1,0 +1,19 @@
+=== FILE: data_modeling_interview.txt ===
+
+Data modeling interviews evaluate a candidate's ability to design scalable and efficient database structures.
+
+Interviewers commonly ask about normalization and denormalization. Candidates should understand how normalization reduces redundancy while denormalization improves analytical performance.
+
+Dimensional modeling is a key topic for data warehouse roles. Engineers should be familiar with fact tables, dimension tables, star schemas, and snowflake schemas.
+
+A common interview exercise involves designing a schema for an e-commerce, banking, or inventory management system. Candidates must identify entities, relationships, and business requirements.
+
+Slowly Changing Dimensions (SCDs) frequently appear in warehouse-focused interviews. Understanding Type 1, Type 2, and Type 3 SCD implementations is important.
+
+Granularity is another important concept. Engineers should understand how the level of detail stored in fact tables affects reporting flexibility.
+
+Performance considerations such as indexing, partitioning, and query optimization may also be discussed.
+
+Successful candidates demonstrate both technical understanding and the ability to translate business requirements into scalable data models.
+
+Strong data modeling skills help organizations build reliable reporting systems and maintain analytical consistency.

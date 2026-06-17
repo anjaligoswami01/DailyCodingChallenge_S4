@@ -1,0 +1,17 @@
+Apache Spark is an open-source distributed computing framework designed for large-scale data processing. It enables organizations to analyze massive datasets quickly by distributing workloads across multiple machines.
+
+Spark was created to overcome limitations of traditional batch processing systems. Unlike disk-heavy processing frameworks, Spark performs many operations in memory, resulting in significantly faster execution.
+
+The core abstraction in Spark is the distributed dataset. Modern Spark applications primarily use DataFrames and Datasets, which provide structured representations of data and support SQL-like operations.
+
+Spark consists of several major components. Spark SQL handles structured data processing. Spark Streaming enables real-time analytics. MLlib provides machine learning capabilities, while GraphX supports graph processing.
+
+A Spark cluster contains a driver program and multiple executors. The driver coordinates tasks while executors perform distributed computations. This architecture allows Spark to process terabytes or petabytes of data efficiently.
+
+Spark supports multiple programming languages including Python, Scala, Java, and R. PySpark has become particularly popular among data engineers due to Python's extensive ecosystem.
+
+Common data engineering use cases include ETL pipelines, data lake processing, batch analytics, machine learning feature engineering, and streaming applications.
+
+Spark integrates seamlessly with cloud platforms such as AWS, Azure, and Google Cloud. It can read data from S3, Azure Data Lake, Kafka, relational databases, and many other storage systems.
+
+Because of its scalability, flexibility, and performance, Spark remains one of the most important technologies in modern data engineering.

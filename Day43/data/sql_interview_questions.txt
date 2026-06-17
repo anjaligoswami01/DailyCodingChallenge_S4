@@ -1,0 +1,17 @@
+=== FILE: sql_interview_questions.txt ===
+
+SQL is one of the most frequently tested skills in data engineering interviews. Employers use SQL questions to evaluate a candidate's ability to retrieve, transform, and analyze data efficiently.
+
+Common interview topics include joins, aggregations, subqueries, common table expressions (CTEs), window functions, indexing, and query optimization. Candidates should be comfortable working with multiple tables and understanding relationships between datasets.
+
+A frequently asked question is finding the second-highest salary from an employee table. Solutions may involve subqueries, ranking functions, or dense ranking techniques. Another common problem involves identifying duplicate records using GROUP BY and HAVING clauses.
+
+Window functions such as ROW_NUMBER(), RANK(), DENSE_RANK(), LEAD(), and LAG() are increasingly important in modern interviews. Interviewers often test ranking, running totals, and trend analysis scenarios.
+
+Aggregation questions are also common. Candidates may be asked to calculate monthly sales, top-performing customers, or average transaction values. Understanding GROUP BY and HAVING is essential.
+
+Performance optimization topics include indexing, partitioning, execution plans, and reducing full table scans. Data engineers should understand how databases execute queries and how optimization improves efficiency.
+
+Preparation involves solving SQL problems regularly and practicing with real-world datasets. Platforms such as LeetCode and HackerRank provide valuable exercises.
+
+Strong SQL skills remain one of the most important qualifications for data engineering roles.

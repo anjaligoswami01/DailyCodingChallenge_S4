@@ -1,0 +1,17 @@
+A beginner data engineering roadmap focuses on building strong foundations in databases, programming, data processing, and cloud technologies.
+
+The first step is learning SQL. Data engineers spend significant time querying, transforming, and validating data. Topics such as joins, aggregations, subqueries, window functions, and indexing should be mastered early.
+
+Next, engineers should learn Python. Python is widely used for automation, ETL development, API integration, and data processing. Key libraries include Pandas, NumPy, Requests, and PySpark.
+
+Understanding database fundamentals is equally important. Beginners should become familiar with relational databases such as PostgreSQL and SQL Server, including schema design, normalization, and performance optimization.
+
+Once core skills are established, learning ETL concepts helps engineers understand how data moves between systems. Building small pipelines using Python and SQL provides valuable practical experience.
+
+Cloud fundamentals are increasingly important. Beginners should learn storage, compute, networking, and identity management concepts using AWS, Azure, or Google Cloud.
+
+Version control with Git and GitHub should be incorporated early. These tools support collaboration, code management, and deployment workflows.
+
+A strong portfolio is essential for job seekers. Projects involving ETL pipelines, SQL analysis, cloud storage, and dashboard integration demonstrate practical capability.
+
+By focusing on foundational technologies and hands-on projects, aspiring engineers can develop the skills necessary to begin a successful career in data engineering.

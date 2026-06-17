@@ -1,0 +1,2 @@
+documents,chunks,avg_chunk_size,ingestion_time_seconds,embedding_model
+50,157,613.82,10.44,all-MiniLM-L6-v2

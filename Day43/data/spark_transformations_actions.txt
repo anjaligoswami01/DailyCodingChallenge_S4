@@ -1,0 +1,25 @@
+Spark operations are divided into transformations and actions. Understanding the difference between these concepts is fundamental for efficient Spark development.
+
+Transformations create new datasets from existing ones without immediately executing computations. Examples include filter(), select(), join(), groupBy(), and withColumn(). Spark records these operations in a logical execution plan.
+
+For example:
+
+df.filter(df.salary > 50000)
+
+This transformation does not immediately process data. Instead, Spark builds a Directed Acyclic Graph (DAG) describing the computation.
+
+Actions trigger actual execution. Examples include show(), count(), collect(), write(), and save(). When an action occurs, Spark executes all required transformations.
+
+Example:
+
+df.filter(df.salary > 50000).count()
+
+The count() action initiates processing and returns the result.
+
+Spark uses lazy evaluation to optimize execution plans. By delaying computation until an action occurs, Spark can combine operations and eliminate unnecessary processing.
+
+Narrow transformations operate within partitions and generally require less data movement. Wide transformations such as groupBy() and join() often trigger shuffles, which can impact performance.
+
+Data engineers monitor shuffles carefully because network transfers are expensive in distributed environments. Reducing shuffle operations is a common optimization strategy.
+
+Understanding transformations and actions helps engineers write efficient Spark jobs, reduce resource consumption, and improve overall system performance.

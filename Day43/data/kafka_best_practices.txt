@@ -1,0 +1,19 @@
+Implementing Kafka effectively requires following best practices related to scalability, reliability, monitoring, and security.
+
+One important recommendation is selecting an appropriate number of partitions. Partitions determine parallelism, but excessive partition counts can increase management overhead and resource consumption.
+
+Replication should always be enabled for critical workloads. Multiple replicas protect against broker failures and improve fault tolerance. Organizations commonly use a replication factor of three in production environments.
+
+Producers should enable acknowledgments to ensure successful message delivery. Using stronger acknowledgment settings improves reliability at the cost of slightly increased latency.
+
+Consumer groups should be designed carefully to maximize throughput while avoiding idle resources. Monitoring consumer lag helps identify performance bottlenecks and processing delays.
+
+Schema management is another important practice. Tools such as Schema Registry help maintain compatibility between producers and consumers while reducing integration issues.
+
+Security measures include encryption, authentication, and authorization. Kafka supports SSL/TLS encryption as well as access control mechanisms for protecting sensitive data.
+
+Observability is essential. Metrics related to throughput, latency, consumer lag, partition health, and broker utilization should be monitored continuously.
+
+Data retention policies should align with business requirements. Retaining data longer than necessary increases storage costs, while short retention periods may limit recovery options.
+
+Following Kafka best practices helps organizations build robust, scalable, and secure streaming platforms capable of supporting mission-critical workloads.

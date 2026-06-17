@@ -1,0 +1,15 @@
+Apache Kafka is a distributed event streaming platform used for building real-time data pipelines and streaming applications. Originally developed at LinkedIn and later open-sourced, Kafka has become one of the most important technologies in modern data engineering.
+
+Kafka operates as a distributed messaging system where producers publish messages and consumers subscribe to receive them. Messages are organized into topics, which act as logical channels for data streams. Common examples include user activity logs, website click events, financial transactions, and IoT sensor readings.
+
+A Kafka cluster consists of multiple brokers. Each broker stores and serves data. This distributed architecture provides scalability, fault tolerance, and high availability. Organizations can process millions of events per second using Kafka clusters.
+
+One of Kafka's key strengths is durability. Messages are persisted to disk and replicated across multiple brokers. This ensures that data remains available even if hardware failures occur.
+
+Kafka uses a publish-subscribe model. Producers send records to topics, while consumers read records from those topics. Multiple consumers can independently process the same stream for different purposes, such as analytics, monitoring, and machine learning.
+
+Data engineers commonly use Kafka for real-time ETL pipelines, event-driven architectures, data lake ingestion, and microservices communication. Kafka integrates with Spark, Flink, Snowflake, Redshift, and cloud platforms.
+
+The Kafka ecosystem includes tools such as Kafka Connect for data integration and Kafka Streams for stream processing. These components simplify the development of end-to-end streaming solutions.
+
+Learning Kafka fundamentals helps data engineers design scalable, reliable, and real-time data platforms capable of handling continuously generated data streams.

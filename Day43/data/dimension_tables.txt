@@ -1,0 +1,15 @@
+Dimension tables provide descriptive information that gives context to business events stored in fact tables. They are fundamental components of dimensional data modeling.
+
+Common dimension examples include customers, products, employees, locations, suppliers, and dates. These dimensions contain attributes that help users analyze and interpret business data.
+
+A customer dimension might include customer name, age group, city, region, and membership status. Analysts can use these attributes to segment and filter reports.
+
+Dimension tables typically have surrogate keys that uniquely identify records. These keys simplify relationships with fact tables and support historical tracking.
+
+Slowly Changing Dimensions (SCDs) are commonly used to manage changes in dimensional attributes over time. Different SCD types provide varying approaches to preserving historical information.
+
+Dimensions support drill-down analysis. For example, analysts can move from country-level sales to region-level and city-level details using location dimensions.
+
+Data engineers design dimensions carefully to ensure consistency across reports and dashboards. Well-structured dimensions improve usability and analytical flexibility.
+
+Dimension tables are essential for business intelligence systems because they transform raw transactional data into meaningful business insights.

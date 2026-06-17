@@ -1,0 +1,34 @@
+Window functions are advanced SQL features that perform calculations across a set of rows related to the current row without collapsing the result set. They are widely used in analytics, reporting, and data engineering workloads.
+
+Unlike GROUP BY, which aggregates rows into a single result, window functions preserve individual records while adding analytical calculations. This makes them extremely useful for ranking, running totals, and trend analysis.
+
+A common window function is ROW_NUMBER():
+
+SELECT employee_name,
+ROW_NUMBER() OVER (ORDER BY salary DESC)
+FROM employees;
+
+This assigns a unique rank to each employee based on salary.
+
+RANK() and DENSE_RANK() are frequently used for leaderboard-style reporting. While RANK() may skip numbers when ties occur, DENSE_RANK() maintains consecutive rankings.
+
+Running totals can be calculated using SUM():
+
+SELECT order_date,
+SUM(revenue) OVER (ORDER BY order_date)
+AS cumulative_revenue
+FROM sales;
+
+Partitioning allows calculations within groups:
+
+AVG(salary) OVER (PARTITION BY department_id)
+
+This computes average salary separately for each department.
+
+Window functions are especially valuable in data warehouses where analysts need detailed records alongside aggregated metrics. They simplify many business intelligence calculations that would otherwise require complex subqueries.
+
+Data engineers use window functions for customer segmentation, churn analysis, fraud detection, and performance dashboards. They are also commonly asked about in technical interviews because they demonstrate advanced SQL proficiency.
+
+Performance considerations include minimizing unnecessary partitions and ensuring proper indexing. Large window operations can be resource-intensive, especially on massive datasets.
+
+Understanding window functions enables efficient analytical querying and supports sophisticated business reporting requirements.

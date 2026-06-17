@@ -1,0 +1,15 @@
+Cloud data engineers design, build, and maintain data platforms that operate primarily within cloud environments such as AWS, Azure, and Google Cloud.
+
+Unlike traditional on-premises architectures, cloud platforms provide managed services that simplify infrastructure management while offering scalability and flexibility. Engineers leverage these services to build modern analytics ecosystems.
+
+Core responsibilities include data ingestion, storage management, transformation workflows, orchestration, security implementation, and performance optimization. Cloud engineers often work with large-scale data lakes and warehouses.
+
+Common AWS services include S3, Glue, EMR, Redshift, Lambda, Athena, and IAM. Azure professionals may use Data Factory, Synapse, Databricks, Data Lake Storage, and Fabric. Google Cloud engineers often work with BigQuery, Dataflow, Dataproc, and Pub/Sub.
+
+Infrastructure-as-Code tools such as Terraform and CloudFormation are frequently used to automate deployment and configuration management.
+
+Security remains a critical responsibility. Engineers implement encryption, access controls, monitoring, auditing, and governance policies to protect organizational data assets.
+
+Cloud-native architectures support batch processing, streaming analytics, machine learning, and business intelligence workloads. Cost optimization is also important because cloud resources operate on consumption-based pricing models.
+
+As organizations continue migrating to cloud environments, cloud data engineering has become one of the most in-demand specializations within the broader data engineering field.

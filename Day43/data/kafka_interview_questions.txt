@@ -1,0 +1,19 @@
+=== FILE: kafka_interview_questions.txt ===
+
+Apache Kafka is widely used for real-time data streaming and event-driven architectures. As a result, Kafka-related questions frequently appear in data engineering interviews.
+
+Candidates should understand core concepts including topics, partitions, producers, consumers, brokers, and consumer groups. These components form the foundation of Kafka architecture.
+
+Partitioning is a common interview topic because it affects scalability and ordering. Engineers should explain how partition keys determine message placement.
+
+Consumer groups allow multiple consumers to process data in parallel. Interviewers often ask how Kafka distributes partitions among consumers and handles failures.
+
+Offset management is another important concept. Candidates should understand how consumers track progress and recover from interruptions.
+
+Questions about fault tolerance typically focus on replication, leader election, and broker recovery. Understanding these mechanisms demonstrates knowledge of production environments.
+
+Performance discussions may include throughput optimization, batching, compression, retention policies, and partition sizing.
+
+Interviewers may also ask about Kafka Connect and Schema Registry. These tools simplify integration and schema management in enterprise systems.
+
+Practical examples involving streaming analytics, fraud detection, or real-time dashboards help demonstrate applied Kafka expertise.

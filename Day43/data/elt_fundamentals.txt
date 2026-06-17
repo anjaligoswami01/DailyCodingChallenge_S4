@@ -1,0 +1,15 @@
+ELT stands for Extract, Load, and Transform. It is a modern data integration approach that takes advantage of the scalable computing capabilities of cloud data warehouses and data lakes.
+
+Unlike ETL, where transformations occur before loading data into the target system, ELT loads raw data first and performs transformations afterward within the destination platform. This approach has become increasingly popular with technologies such as Snowflake, BigQuery, Databricks, and Redshift.
+
+The Extract phase gathers data from source systems including databases, APIs, SaaS platforms, IoT devices, and event streams. The Load phase transfers this raw data directly into a warehouse or lakehouse environment. Once loaded, SQL or distributed processing engines perform transformations.
+
+One advantage of ELT is flexibility. Since raw data is preserved, engineers can revisit historical information and apply new business rules without re-extracting data from source systems.
+
+ELT also simplifies pipeline architecture. Instead of maintaining separate transformation infrastructure, organizations leverage the processing power already available within modern cloud platforms.
+
+Common ELT tools include dbt, Fivetran, Airbyte, Snowflake Tasks, Databricks Workflows, and cloud-native orchestration solutions. These tools automate transformation logic and support scalable data workflows.
+
+Organizations often prefer ELT because cloud compute resources can handle large-scale transformations efficiently. This approach accelerates analytics development and reduces operational complexity.
+
+As cloud adoption continues to grow, ELT has become a standard architectural pattern for modern data engineering teams. Understanding ELT concepts is therefore critical for engineers working with contemporary analytics platforms and data warehouses.

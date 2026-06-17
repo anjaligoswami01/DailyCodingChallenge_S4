@@ -1,0 +1,19 @@
+=== FILE: spark_interview_questions.txt ===
+
+Apache Spark is a common topic in data engineering interviews due to its widespread use in large-scale data processing.
+
+Interviewers often begin with Spark architecture. Candidates should understand drivers, executors, clusters, tasks, stages, and jobs. Explaining how Spark distributes computations demonstrates a strong conceptual foundation.
+
+RDDs, DataFrames, and Datasets are frequently discussed. DataFrames are generally preferred because they support schema awareness and benefit from Spark's Catalyst Optimizer.
+
+Transformations and actions are key concepts. Candidates should understand lazy evaluation and how Spark builds execution plans before performing computations.
+
+Performance tuning is another important area. Interviewers may ask about partitioning, caching, broadcast joins, shuffle operations, and file formats such as Parquet.
+
+Questions about Spark SQL are common because many organizations use SQL-style processing on distributed datasets. Engineers should understand DataFrame operations and SQL integration.
+
+Structured Streaming topics may appear for real-time processing roles. Concepts such as checkpointing, watermarking, and fault tolerance are important.
+
+Hands-on project experience is often more valuable than theoretical knowledge. Candidates who have built Spark pipelines can explain practical optimization strategies and troubleshooting techniques.
+
+Strong Spark knowledge demonstrates readiness for large-scale data engineering environments.

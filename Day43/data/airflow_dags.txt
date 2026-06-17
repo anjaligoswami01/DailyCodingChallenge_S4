@@ -1,0 +1,21 @@
+Directed Acyclic Graphs, commonly known as DAGs, are the foundation of Apache Airflow. Every workflow in Airflow is represented as a DAG that defines tasks and their dependencies.
+
+A DAG is a collection of tasks organized in a way that prevents circular dependencies. Since workflows must have a clear execution path, tasks cannot loop back to previously executed steps.
+
+A typical DAG might contain tasks such as data extraction, validation, transformation, loading, and reporting. Airflow ensures that each task runs only after its dependencies have completed successfully.
+
+DAGs are defined using Python code. Engineers specify scheduling intervals, task definitions, retry behavior, and dependency relationships directly within the DAG file.
+
+For example:
+
+extract >> transform >> load
+
+This indicates that transformation begins only after extraction finishes, and loading starts after transformation completes.
+
+Scheduling options include hourly, daily, weekly, monthly, or custom cron-based schedules. Airflow automatically triggers workflow executions according to these schedules.
+
+DAG visualization within the Airflow web interface provides visibility into workflow structure and execution status. Engineers can quickly identify failures and troubleshoot issues.
+
+Best practices include keeping DAGs modular, minimizing complexity, using meaningful task names, and separating business logic from orchestration logic.
+
+Understanding DAG design is essential for building maintainable and scalable data pipelines using Apache Airflow.

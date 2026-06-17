@@ -1,0 +1,24 @@
+SQL joins are used to combine data from multiple tables based on relationships between them. Joins are among the most important concepts in data engineering because real-world datasets are usually distributed across multiple tables.
+
+The most common join type is the INNER JOIN. It returns records that have matching values in both tables. For example, customer information may be stored in one table while order information is stored in another. An INNER JOIN combines these datasets using a shared key such as customer_id.
+
+Example:
+
+SELECT c.customer_name, o.order_amount
+FROM customers c
+INNER JOIN orders o
+ON c.customer_id = o.customer_id;
+
+LEFT JOIN returns all records from the left table and matching records from the right table. If no match exists, NULL values are returned for the right-side columns. This is useful when identifying customers who have not placed orders.
+
+RIGHT JOIN works similarly but preserves all rows from the right table. FULL OUTER JOIN returns all matching and non-matching records from both tables.
+
+Data engineers often use SELF JOIN when comparing records within the same table. For example, employee-manager relationships can be represented using a self-join.
+
+Understanding join cardinality is important. One-to-one, one-to-many, and many-to-many relationships affect query performance and result accuracy. Poorly designed joins can create duplicate records and incorrect aggregations.
+
+Join optimization is critical for large datasets. Indexes on join keys significantly improve performance. Data warehouses often use partitioning and clustering techniques to reduce join costs.
+
+Modern ETL processes depend heavily on joins to enrich datasets. Customer data may be joined with transaction records, product catalogs, geographic information, and marketing datasets to create comprehensive analytical views.
+
+Mastering SQL joins enables data engineers to integrate information from multiple sources efficiently and build reliable reporting systems.

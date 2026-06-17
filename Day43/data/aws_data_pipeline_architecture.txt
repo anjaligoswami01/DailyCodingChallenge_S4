@@ -1,0 +1,17 @@
+A modern AWS data pipeline architecture combines storage, processing, orchestration, and analytics services to create scalable data platforms.
+
+Data typically enters the system from operational databases, applications, APIs, IoT devices, or streaming platforms. Ingestion may occur through services such as Kafka, Kinesis, Database Migration Service (DMS), or custom APIs.
+
+Raw data is commonly stored in Amazon S3, which serves as the central data lake. Organizing data into raw, processed, and curated layers helps improve governance and maintainability.
+
+AWS Glue Crawlers catalog incoming datasets, while Glue ETL jobs perform transformations such as cleansing, enrichment, aggregation, and schema standardization.
+
+Large-scale processing workloads may use Amazon EMR with Apache Spark. Real-time analytics workloads often integrate Kinesis or Kafka with streaming processing frameworks.
+
+Curated data is frequently loaded into Amazon Redshift for business intelligence and reporting. Analysts access warehouse data using SQL and visualization tools.
+
+Workflow orchestration can be managed through Apache Airflow, AWS Step Functions, or Glue Workflows. These tools coordinate dependencies and automate pipeline execution.
+
+Security controls include IAM roles, encryption, network isolation, and data governance policies. Monitoring services such as CloudWatch provide operational visibility.
+
+A well-designed AWS data architecture supports scalability, reliability, cost optimization, and analytical flexibility, making it suitable for enterprise-scale data engineering environments.

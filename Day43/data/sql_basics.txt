@@ -1,0 +1,21 @@
+Structured Query Language (SQL) is the standard language used to interact with relational databases. Data engineers use SQL daily to extract, transform, and analyze data stored in systems such as PostgreSQL, MySQL, SQL Server, Oracle, and cloud data warehouses. Understanding SQL fundamentals is essential for building data pipelines and supporting analytics workloads.
+
+A relational database stores data in tables consisting of rows and columns. Each table represents an entity such as customers, orders, or products. SQL allows users to create tables, insert records, update information, delete data, and retrieve information using queries.
+
+The most commonly used SQL statement is SELECT. A basic query retrieves data from a table:
+
+SELECT customer_name FROM customers;
+
+Filters can be applied using the WHERE clause:
+
+SELECT * FROM orders WHERE amount > 1000;
+
+Sorting is performed with ORDER BY, while limiting results can be done using LIMIT. Data engineers frequently combine these clauses to create efficient reports and data extraction jobs.
+
+SQL supports aggregate functions such as COUNT(), SUM(), AVG(), MIN(), and MAX(). These functions summarize large datasets and are often used with GROUP BY to perform business analysis. For example, calculating total sales per region is a common aggregation task.
+
+Database schemas define how tables are organized. Primary keys uniquely identify rows, while foreign keys establish relationships between tables. Proper schema design improves data integrity and query performance.
+
+Modern data engineering workflows rely heavily on SQL because most data warehouses use SQL-based interfaces. Platforms such as Snowflake, Amazon Redshift, Google BigQuery, and Microsoft Fabric all support SQL querying.
+
+Learning SQL fundamentals provides a strong foundation for advanced topics including data modeling, ETL pipelines, analytics engineering, and cloud-based data platforms. Every aspiring data engineer should become comfortable writing queries, understanding relational concepts, and optimizing data retrieval operations.

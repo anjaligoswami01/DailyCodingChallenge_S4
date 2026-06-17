@@ -1,0 +1,15 @@
+ETL stands for Extract, Transform, and Load. It is a foundational process in data engineering used to move data from source systems into analytical platforms such as data warehouses and reporting systems.
+
+The first stage, Extract, involves collecting data from various sources. These sources may include relational databases, APIs, flat files, cloud applications, CRM systems, ERP platforms, and streaming services. Data engineers must ensure extraction processes are reliable and capable of handling large data volumes.
+
+The second stage, Transform, focuses on cleaning, validating, standardizing, and enriching data. Common transformation tasks include removing duplicates, correcting invalid values, applying business rules, converting data types, and calculating derived metrics. Data quality is often improved significantly during this phase.
+
+The final stage, Load, transfers transformed data into the target system. Targets commonly include data warehouses such as Snowflake, Amazon Redshift, Google BigQuery, and Microsoft Fabric. Loading may occur as full refreshes or incremental updates.
+
+ETL workflows are commonly orchestrated using tools such as Apache Airflow, AWS Glue, Informatica, Talend, and Azure Data Factory. These platforms automate scheduling, monitoring, and error handling.
+
+A typical ETL example involves extracting customer transactions from an operational database, transforming the data into a standardized reporting format, and loading the results into a warehouse for business intelligence reporting.
+
+ETL remains widely used because it provides strong control over data quality and consistency before information reaches analytical systems. Although newer architectures often adopt ELT approaches, ETL continues to play a crucial role in enterprise data integration.
+
+For data engineers, understanding ETL principles is essential because many business-critical pipelines rely on structured extraction, transformation, and loading processes to support decision-making and analytics.

@@ -1,0 +1,25 @@
+Spark DataFrames are distributed collections of structured data organized into named columns. They are the preferred API for most modern Spark applications because they provide both usability and performance benefits.
+
+DataFrames resemble tables in relational databases. Users can perform filtering, aggregation, joins, and transformations using SQL-like syntax or programming language APIs.
+
+Creating a DataFrame from a CSV file is straightforward:
+
+df = spark.read.csv("employees.csv",
+header=True,
+inferSchema=True)
+
+Once loaded, data can be manipulated using DataFrame operations. For example:
+
+df.select("name", "salary")
+
+Spark's Catalyst Optimizer automatically analyzes DataFrame queries and generates efficient execution plans. This optimization layer often produces better performance than lower-level APIs.
+
+DataFrames support schema enforcement, ensuring consistent data types across records. Strong schema management improves data quality and reduces runtime errors.
+
+Common operations include filtering rows, joining datasets, grouping records, calculating aggregates, and writing results to storage systems.
+
+Data engineers frequently use DataFrames in ETL pipelines because they simplify complex transformations while maintaining scalability. DataFrames can process billions of records across distributed clusters.
+
+Integration with Spark SQL enables users to register temporary views and execute SQL queries directly against DataFrames.
+
+Because of their balance between simplicity and performance, DataFrames are considered a core building block of modern Spark-based data engineering workflows.

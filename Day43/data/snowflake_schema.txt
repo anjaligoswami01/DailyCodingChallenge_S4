@@ -1,0 +1,17 @@
+A snowflake schema is a variation of the star schema that introduces additional normalization within dimension tables. This design reduces data redundancy while maintaining support for analytical workloads.
+
+In a snowflake schema, dimension tables are split into related sub-dimensions. For example, a product dimension may be separated into product, category, and supplier tables. These normalized structures create a branching pattern resembling a snowflake.
+
+The primary advantage of a snowflake schema is reduced storage requirements. Since descriptive attributes are stored in separate tables, duplicate values are minimized.
+
+However, normalization increases the number of joins required for queries. As a result, query complexity and execution time may increase compared to a star schema.
+
+Snowflake schemas are often used when dimensions contain large amounts of hierarchical data or when maintaining strict data consistency is important.
+
+Data engineers must evaluate trade-offs between storage efficiency and query performance when selecting between star and snowflake designs.
+
+Modern cloud warehouses have reduced some of the performance concerns associated with snowflake schemas due to advances in distributed query processing.
+
+Organizations commonly use snowflake schemas in enterprise data warehouses where data governance, consistency, and maintainability are priorities.
+
+A strong understanding of snowflake schemas helps engineers design flexible and scalable analytical environments.

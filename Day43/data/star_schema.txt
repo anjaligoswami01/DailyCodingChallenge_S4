@@ -1,0 +1,17 @@
+A star schema is a widely used data modeling technique in data warehousing. It organizes data into fact tables and dimension tables to support efficient analytical querying.
+
+The fact table contains measurable business events such as sales transactions, orders, website visits, or inventory movements. Facts typically include numeric metrics and foreign keys referencing dimensions.
+
+Dimension tables provide descriptive context. Examples include customer, product, location, and time dimensions. These tables contain attributes used for filtering, grouping, and reporting.
+
+The schema resembles a star because dimension tables surround the central fact table. This structure simplifies query design and improves analytical performance.
+
+For example, a sales fact table may contain transaction amounts linked to customer, product, and date dimensions. Analysts can easily calculate revenue by region, product category, or customer segment.
+
+Star schemas reduce the number of joins required for reporting compared to highly normalized transactional databases. This makes them ideal for business intelligence workloads.
+
+Modern cloud data warehouses frequently use star schemas because they align well with SQL-based analytics and dashboarding tools.
+
+Data engineers often design star schemas during warehouse development projects to improve query performance and create intuitive analytical datasets.
+
+Understanding star schemas is essential for building scalable reporting environments and supporting enterprise decision-making processes.

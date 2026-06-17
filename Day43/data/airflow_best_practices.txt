@@ -1,0 +1,17 @@
+Building reliable Airflow pipelines requires following best practices related to workflow design, monitoring, and operational management.
+
+One key recommendation is keeping DAGs focused and modular. Large monolithic workflows become difficult to maintain and troubleshoot. Breaking pipelines into logical components improves clarity and reusability.
+
+Task idempotency is another important principle. Tasks should produce consistent results even when executed multiple times. This reduces the risk of data corruption during retries.
+
+Retry policies should be configured thoughtfully. Temporary failures often resolve automatically, but excessive retries can waste resources and delay downstream processing.
+
+Monitoring and alerting are essential for production environments. Notifications should be triggered when workflows fail, exceed expected durations, or encounter unusual conditions.
+
+Configuration and secrets should be managed securely. Credentials should never be hardcoded within DAG files. Instead, use Airflow connections, environment variables, or secret management services.
+
+Logging provides visibility into workflow execution and simplifies troubleshooting. Engineers should ensure that logs are retained and accessible for analysis.
+
+Testing DAGs before deployment helps identify dependency issues and logic errors. Version control practices improve collaboration and support rollback capabilities.
+
+Following Airflow best practices results in reliable, maintainable, and scalable orchestration systems that support enterprise-grade data engineering operations.

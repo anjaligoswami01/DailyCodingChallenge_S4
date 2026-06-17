@@ -1,0 +1,19 @@
+Intermediate data engineers expand beyond foundational skills and begin working with distributed systems, cloud platforms, orchestration frameworks, and advanced data architectures.
+
+A major milestone is learning Apache Spark. Engineers should understand DataFrames, transformations, actions, partitioning, and performance tuning. Spark enables large-scale processing and is widely used in enterprise environments.
+
+Workflow orchestration becomes increasingly important. Tools such as Apache Airflow help automate and manage complex ETL and ELT pipelines. Understanding DAG design, scheduling, and monitoring is valuable.
+
+Cloud proficiency should deepen at this stage. Engineers should gain experience with services such as AWS S3, Glue, Redshift, Lambda, and EMR or equivalent Azure and GCP offerings.
+
+Data modeling skills should expand to include dimensional modeling, star schemas, snowflake schemas, and warehouse architecture design. These concepts support scalable reporting and analytics.
+
+Engineers should also learn streaming technologies such as Kafka and Spark Streaming. Real-time data processing is becoming increasingly common across industries.
+
+Infrastructure automation using Terraform and CI/CD pipelines can further improve productivity and deployment consistency.
+
+Intermediate professionals often focus on improving reliability through testing, monitoring, logging, and data quality frameworks.
+
+Building end-to-end projects that combine cloud services, orchestration, storage, processing, and analytics demonstrates readiness for senior-level responsibilities.
+
+By mastering distributed processing, orchestration, and cloud architecture, intermediate engineers position themselves for advanced data engineering and platform engineering roles.

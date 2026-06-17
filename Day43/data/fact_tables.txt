@@ -1,0 +1,17 @@
+Fact tables store measurable business events and quantitative metrics within a dimensional data warehouse. They serve as the central component of analytical data models.
+
+Examples of fact table metrics include sales revenue, order quantities, inventory levels, website visits, and customer transactions. Each record typically represents a specific business event.
+
+Fact tables contain foreign keys linking to dimension tables. These relationships provide context for analysis. For example, a sales fact table may reference customer, product, location, and date dimensions.
+
+Facts are generally classified into three categories: additive, semi-additive, and non-additive. Additive facts can be summed across all dimensions, while semi-additive and non-additive facts require special handling.
+
+Granularity refers to the level of detail stored in a fact table. Transaction-level granularity provides maximum flexibility but may increase storage requirements.
+
+Data engineers carefully define granularity because it affects reporting capabilities, performance, and storage costs.
+
+Partitioning, indexing, and efficient storage formats help optimize large fact tables for analytical workloads.
+
+Fact tables enable organizations to measure performance, monitor operations, and generate business insights. They form the foundation of dashboards, reports, and advanced analytics systems.
+
+Understanding fact table design is essential for building scalable and high-performing data warehouse architectures.

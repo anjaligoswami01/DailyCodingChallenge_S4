@@ -1,0 +1,17 @@
+Producers and consumers are the primary components that interact with Kafka. Producers send messages into Kafka topics, while consumers retrieve and process those messages.
+
+A producer application generates events and publishes them to a topic. Examples include web applications generating clickstream data, payment systems recording transactions, or IoT devices transmitting sensor readings.
+
+Producers can specify partition keys to control message distribution. Using a consistent key ensures that related events are stored in the same partition, preserving ordering for those records.
+
+Consumers subscribe to one or more topics and process incoming messages. They read data sequentially from partitions using offsets. Unlike traditional messaging systems, Kafka consumers control their own reading position.
+
+Consumer groups enable scalability. Multiple consumers can collaborate within the same group to process partitions in parallel. Kafka automatically distributes partitions among group members.
+
+For example, if a topic has six partitions and three consumers belong to the same group, each consumer may process two partitions. This improves throughput and supports horizontal scaling.
+
+Offset management is an important responsibility for consumers. Offsets can be committed automatically or manually. Proper offset handling ensures reliable processing and prevents data loss.
+
+Data engineers use producers and consumers to build streaming ETL pipelines, real-time analytics systems, monitoring platforms, and event-driven architectures.
+
+Understanding producer-consumer interactions is fundamental for developing scalable Kafka applications and maintaining reliable streaming infrastructures.

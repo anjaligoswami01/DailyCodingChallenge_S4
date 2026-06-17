@@ -1,0 +1,17 @@
+Topics and partitions are core concepts in Apache Kafka. Understanding how they work is essential for designing scalable streaming architectures.
+
+A topic is a logical category used to organize messages. For example, an e-commerce platform might have separate topics for orders, payments, customers, and inventory updates. Producers write messages to topics, while consumers read messages from them.
+
+Each topic is divided into partitions. Partitions are the units of parallelism in Kafka. Messages within a partition are ordered, but messages across different partitions may not maintain global ordering.
+
+Consider a topic with three partitions. Producers distribute records among these partitions, allowing multiple consumers to process data simultaneously. This significantly improves throughput and scalability.
+
+Kafka assigns an offset to every message within a partition. Offsets act as unique identifiers that help consumers track their reading progress. Consumers can resume processing from a specific offset after interruptions or failures.
+
+Partitioning strategies influence performance and data distribution. Round-robin partitioning spreads messages evenly across partitions, while key-based partitioning ensures that records with the same key are stored in the same partition.
+
+Replication further enhances reliability. Each partition has a leader replica and one or more follower replicas. If a leader fails, a follower automatically becomes the new leader.
+
+Data engineers carefully choose partition counts because they affect scalability, fault tolerance, and consumer parallelism. Too few partitions may limit throughput, while excessive partitions can increase operational complexity.
+
+A strong understanding of topics and partitions enables efficient Kafka cluster design and supports large-scale real-time data processing systems.

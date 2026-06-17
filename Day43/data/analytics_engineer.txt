@@ -1,0 +1,15 @@
+Analytics engineering is a discipline that bridges data engineering and business analytics. Analytics engineers focus on transforming raw data into trusted, business-ready datasets for reporting and decision-making.
+
+Unlike traditional data engineers who often concentrate on infrastructure and ingestion, analytics engineers work closer to business stakeholders and analytical use cases.
+
+A key responsibility is creating well-structured data models within warehouses such as Snowflake, BigQuery, Redshift, and Databricks. Tools like dbt are commonly used to manage transformation logic and maintain version-controlled analytical workflows.
+
+Analytics engineers develop metrics, business definitions, semantic layers, and reusable reporting models. Their work ensures consistency across dashboards and reports.
+
+Strong SQL skills are essential because most transformations occur directly within cloud warehouses. Knowledge of dimensional modeling and business processes is equally important.
+
+Collaboration plays a major role. Analytics engineers work closely with analysts, data scientists, and business teams to understand reporting requirements and translate them into scalable data models.
+
+Testing and data quality validation are also important responsibilities. Engineers implement automated checks to ensure that analytical datasets remain accurate and reliable.
+
+The analytics engineering role has grown rapidly with the adoption of modern data stacks and cloud-native analytics platforms. It offers an excellent career path for professionals who enjoy combining technical expertise with business problem-solving.
