@@ -1,146 +1,196 @@
-# AI Career & Portfolio Mentor
+# Day 41 – Product Brief
 
-## Product Discovery and Problem Definition
+# Product Name
 
-### Problem Statement
-
-Users currently review their resumes, GitHub repositories, project portfolios, and LinkedIn profiles manually, which takes 3–5 hours and produces inconsistent quality depending on their experience. An AI system could reduce this to 10–15 minutes with actionable, structured feedback by automatically analyzing resumes, GitHub projects, portfolio documentation, and LinkedIn content and generating personalized improvement recommendations.
+AI Data Engineering Mentor
 
 ---
 
-## Target User
+# Problem Statement
 
-Aspiring software developers, AI learners, students, and job seekers who are building portfolios and preparing for internships or full-time technology roles.
+Users currently learn Data Engineering by manually searching YouTube videos, blogs, documentation, interview questions, and course materials, which takes 2–4 hours per topic and often produces fragmented understanding and inconsistent learning outcomes. An AI system could reduce this to 15–20 minutes with structured, personalized guidance by retrieving relevant learning resources, generating explanations, creating practice tasks, and tracking skill progression.
+
+---
+
+# Target User
+
+Aspiring Data Engineers, SQL Developers, ETL Developers, Data Analysts transitioning to Data Engineering, and Computer Science students preparing for Data Engineering roles.
 
 ### User Characteristics
 
-- Have 1–10 projects on GitHub
-- Unsure if their portfolio is industry-ready
-- Need guidance for resume and LinkedIn improvements
-- Want personalized career recommendations
-- Lack access to experienced mentors
+* Learning SQL, ETL, Data Warehousing, Cloud Platforms, and Big Data tools
+* Unsure what topic to learn next
+* Need hands-on practice projects
+* Preparing for interviews
+* Struggle with information overload
 
 ---
 
-## Solution Approach
+# Solution Approach
 
-The system accepts:
-
-- Resume (PDF/DOCX)
-- GitHub repository links
-- LinkedIn profile text
-- Career goals
+The user asks a learning-related question.
 
 The AI system:
 
-1. Analyzes project quality
-2. Evaluates resume content
-3. Reviews portfolio documentation
-4. Identifies skill gaps
-5. Suggests improvements
-6. Generates personalized career recommendations
-7. Creates interview preparation plans
+1. Retrieves relevant learning content from a curated knowledge base.
+2. Generates beginner-to-advanced explanations.
+3. Creates practice exercises.
+4. Suggests projects.
+5. Recommends learning paths.
+6. Tracks completed topics.
+7. Identifies skill gaps.
 
-### Output
+### Example Workflow
 
-- Portfolio score
-- Resume score
-- Project quality analysis
-- Skill gap report
-- Improvement roadmap
+User:
+
+"Teach me Apache Airflow."
+
+System:
+
+* Explains Airflow concepts
+* Generates interview questions
+* Creates practical exercises
+* Suggests a mini project
+* Recommends the next topic
 
 ---
 
-## Success Criteria
+# Success Criteria
 
 ### Success Criterion 1
 
-Correctly identify at least 8 out of 10 missing resume sections when tested against manually reviewed resumes.
+Correctly answer at least 8 out of 10 Data Engineering evaluation questions.
 
 ### Success Criterion 2
 
-Generate project improvement recommendations that match human reviewer suggestions in at least 80% of evaluation cases.
+Generate practical exercises that align with the requested skill level in 90% of test cases.
 
 ### Success Criterion 3
 
-Provide complete responses for 9 out of 10 evaluation queries without hallucinating project details.
+Recommend appropriate next learning topics for at least 9 out of 10 user learning journeys.
 
 ---
 
-## Competitive Differentiation
+# Example User Queries
 
-Unlike general AI chatbots or career tools, this product combines resume analysis, GitHub repository evaluation, portfolio assessment, and career guidance into a single personalized AI mentor tailored for aspiring developers.
+1. Explain ETL vs ELT with real-world examples.
 
----
+2. Create a 30-day SQL learning roadmap.
 
-## Biggest Technical Risk
+3. Teach me Apache Airflow from beginner to advanced.
 
-Accurately evaluating project quality from limited repository information.
+4. What projects should I build to become a Data Engineer?
 
-Many repositories may have incomplete documentation, missing README files, or insufficient metadata. This can lead to inaccurate assessments and weak recommendations.
+5. Generate 20 SQL interview questions for freshers.
 
----
+6. Explain Slowly Changing Dimensions in Data Warehousing.
 
-## Mitigation Plan
+7. How does Azure Data Factory compare to Airflow?
 
-The system will use a structured repository evaluation pipeline. It will first validate repository completeness by checking README quality, project structure, documentation, commit history, and technology stack.
+8. Design a Data Engineering project using Snowflake and dbt.
 
-If confidence is low, the system will explicitly state uncertainty rather than making assumptions. Additional user-provided context can be requested when repository information is insufficient.
+9. Create practice exercises for SQL joins.
 
-Confidence scoring will be displayed with every recommendation.
-
----
-
-## Required Components
-
-### Frontend
-
-- Next.js
-- Tailwind CSS
-- Portfolio upload interface
-- Dashboard UI
-
-### Backend
-
-- FastAPI
-- REST API endpoints
-- Authentication
-
-### AI Layer
-
-- OpenAI API
-- Resume analysis module
-- Portfolio scoring engine
-- Recommendation engine
-
-### Data Processing
-
-- PDF parser
-- GitHub repository analyzer
-- Skill extraction module
-
-### Deployment
-
-- Vercel (Frontend)
-- Railway (Backend)
+10. What skills am I missing for a Data Engineer role?
 
 ---
 
-## MVP Features
+# Competitive Analysis
 
-1. Resume Upload
-2. GitHub Repository Analysis
-3. Portfolio Score
-4. Skill Gap Detection
-5. Career Recommendation Engine
-6. Improvement Roadmap Generator
+## ChatGPT
+
+Provides generic learning assistance but lacks a specialized Data Engineering knowledge base and structured learning paths.
+
+## DataCamp
+
+Offers structured courses but cannot provide personalized AI mentoring and dynamic question answering.
+
+## Interview Query
+
+Focuses mainly on interview preparation rather than complete learning guidance and project recommendations.
 
 ---
 
-## Future Features
+# Competitive Differentiation
 
-- LinkedIn Integration
-- Mock Interview Assistant
-- ATS Score Simulation
-- Personalized Learning Paths
-- Job Matching System
+The AI Data Engineering Mentor combines learning guidance, interview preparation, project recommendations, skill-gap analysis, and personalized roadmaps into a single assistant specifically designed for Data Engineering learners.
+
+---
+
+# Biggest Technical Risk
+
+Maintaining accurate and up-to-date Data Engineering knowledge across rapidly evolving technologies such as Snowflake, Databricks, Azure Data Factory, Airflow, dbt, and cloud services.
+
+---
+
+# Mitigation Plan
+
+The system will use a Retrieval-Augmented Generation (RAG) architecture with curated documentation, tutorials, interview questions, and project references. Rather than relying solely on the LLM's internal knowledge, answers will be grounded in retrieved documents. Metadata filtering and source citations will help ensure reliability and reduce hallucinations.
+
+---
+
+# Required Components
+
+## Frontend
+
+* Next.js
+* Tailwind CSS
+* Chat Interface
+* Learning Dashboard
+
+## Backend
+
+* FastAPI
+* REST APIs
+* User Progress Tracking
+
+## AI Layer
+
+* LangChain
+* OpenAI / Claude API
+* RAG Pipeline
+
+## Vector Database
+
+* FAISS
+
+## Data Sources
+
+* Data Engineering Documentation
+* SQL Tutorials
+* Cloud Documentation
+* Interview Question Sets
+
+## Deployment
+
+* Railway
+* Vercel
+
+---
+
+# MVP Features
+
+1. AI Learning Assistant
+2. Data Engineering Knowledge Base
+3. Personalized Roadmaps
+4. Interview Question Generator
+5. Skill Gap Analysis
+6. Project Recommendation Engine
+
+---
+
+# Future Features
+
+* Resume Analysis
+* Mock Interviews
+* Progress Analytics
+* Certification Guidance
+* Job Matching
+* Coding Assessments
+
+---
+
+# Expected Outcome
+
+A learner receives personalized explanations, project ideas, interview preparation, and learning roadmaps within minutes instead of spending hours searching across multiple websites and resources.
